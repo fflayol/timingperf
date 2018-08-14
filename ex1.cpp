@@ -1,12 +1,3 @@
-#include <math.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <chrono>
-#include <cstdint>
-#include <functional>
-#include <iomanip>
-#include <iostream>
-#include <vector>
 #include "performancetiming.hpp"
 int __inline__ fibonacci(int n)
 {

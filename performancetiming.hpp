@@ -1,3 +1,10 @@
+#include <chrono>
+#include <cstdint>
+#include <functional>
+#include <iomanip>
+#include <iostream>
+#include <vector>
+
 namespace timing
 {
 static std::vector<std::pair<std::string, std::function<int(int)>>> benches;
