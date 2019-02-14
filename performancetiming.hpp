@@ -193,7 +193,7 @@ __inline__ void Execute(int parameter)
             break;
       }
 }
-int Conversion()
+void Conversion()
 {
       uint64_t elapsed = rdtscp();
       uint64_t elapsed2 = rdtscp();
@@ -210,7 +210,6 @@ int Conversion()
 void CalcResult(void)
 {
       OneResult res = benchresultses[0];
-      double ref = (double)res.second.first / res.second.first * 100;
       std::cout << "|--------------------------------------------------------------------|\n";
       std::cout << "|---Name--------Timer-----Duration------Diff-------Min-------Diff----|\n";
       std::cout << "|          |           |           |           |         |           |\n";
